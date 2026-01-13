@@ -20,7 +20,7 @@ public class BubbleSort {
         BubbleSort bs = new BubbleSort();
         int[] nums = {4, 3, 5, 7, 1};
         bs.sort(nums);
-
+        System.out.println("Bubble Sort:");
         for (int num : nums) {
             System.out.print(num + " ");
         }
