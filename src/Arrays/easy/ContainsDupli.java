@@ -22,3 +22,4 @@ public class ContainsDupli {
         System.out.println(obj.containsDuplicate(nums2));
     }
 }
+
