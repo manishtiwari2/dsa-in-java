@@ -3,7 +3,7 @@ package Arrays.medium;
 public class MaximumSubarray {
     public int maxSubArray(int[] nums) {
         int maxSum = nums[0];
-        int currSum = maxSum;
+        int currSum = 0;
         for(int num: nums){
             currSum += num;
             maxSum = Math.max(currSum,maxSum);
@@ -13,6 +13,7 @@ public class MaximumSubarray {
         }
         return maxSum;
     }
+
     public static void main(String[] args) {
         MaximumSubarray obj = new MaximumSubarray();
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
