@@ -26,8 +26,15 @@ public class MajorityElement {
     }
 }
 
+// Approach used : -- > MOORE VOTING ALGORITHM
 
-// HashMap - frequency count algorithm
+//Majority Guarantee: One element occurs more than half of the array size.
+//Candidate Selection: Maintain a current candidate and a balance counter.
+//Cancellation Principle: Different elements cancel each other’s count.
+//Survival Rule: The true majority element cannot be cancelled and remains at the end.
+
+
+// HashMap - frequency count algorithm (Naive Approach)
 
 //public int majorityElement(int[] nums) {
 //    int max = nums.length / 2;
