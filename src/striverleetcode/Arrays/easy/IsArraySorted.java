@@ -1,5 +1,6 @@
 package striverleetcode.Arrays.easy;
 
+
 public class IsArraySorted {
     public boolean isSorted(int[] nums) {
         int count = 0;
