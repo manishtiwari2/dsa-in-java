@@ -1,4 +1,4 @@
-package leetcode.graphs.noOfProvinces;
+package leetcode.graphs.dfs.noOfProvinces;
 
 import java.util.*;
 import java.io.*;
